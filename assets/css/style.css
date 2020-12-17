@@ -1,0 +1,112 @@
+.navbar-brand{
+    color:#FF4646 !important;
+}
+
+.btn-pink {
+    background: #FF4646;
+    border-radius: 50px;
+}
+
+.btn-pink:hover {
+    background: #d32525;
+}
+
+.btn-outline-pink {
+    border:1px solid #FF4646;
+    border-radius: 50px;
+    color: #FF4646 !important;
+}
+
+.btn-outline-pink:hover {
+    background: #d32525;
+    color: white !important;
+}
+
+.home {
+    margin-top: 5%;
+}
+
+.subscribe {
+    background: #FF8585;
+}
+
+.subscribe-text {
+    color: #E7E7E7;
+}
+
+.form-subscribe {
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 5px 5px;
+    border-radius: 50px;
+}
+
+.form-input-group {
+    margin: 0 20px;
+    outline: none;
+    border: none;
+    width: 50%;
+}
+
+.form-button-group {
+    background: #FFB396;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 40px;
+}
+
+.text-gray {
+    color: #787878 !important;
+}
+
+.card-wcu {
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #FFB8B8;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 9px 1px rgba(255, 133, 133, 0.25);
+    border-radius: 25px;
+    margin: 0 20px;
+}
+
+.wcu-card-icon {
+    color: #FF4646;
+}
+
+.rounded-50 {
+    border-radius: 25px;
+}
+
+/* md */
+@media screen and (max-width : 768px){
+    .wcu-card-title {
+        margin-top: 10px;
+    }
+
+    .card-wcu {
+        width: 100%;
+    }
+}
+
+/* sm */
+@media screen and (max-width : 576px){
+    .btn-pink-block {
+        width: 100%;
+        display: block;
+    }
+
+    .card-wcu {
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .wcu-second {
+        margin-top: 0 !important;
+    }
+}
