@@ -23,7 +23,7 @@
 }
 
 .home {
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .subscribe {
@@ -137,6 +137,23 @@
     height: 400px !important;
 }
 
+.contact-form{
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 28.9839px 41.7707px rgba(0, 0, 0, 0.0303634), 0px 6.62535px 31.9181px rgba(0, 0, 0, 0.0137009), 0px -1.52953px 23.5194px rgba(0, 0, 0, 0.00518988), 0px -2.81215px 13.1359px rgba(0, 0, 0, 0.00114242);
+    border-radius: 25px;
+}
+
+.form-input-grey{
+    background: #eee;
+}
+
+footer {
+    background: linear-gradient(90deg, #F857A6 0%, #FF5858 100%);
+}
+
+.btn-submit-form {
+    width: 100%;
+}
+
 /* md */
 @media screen and (max-width : 768px){
     .wcu-card-title {
@@ -150,6 +167,10 @@
 
 /* sm */
 @media screen and (max-width : 576px){
+    .home {
+        margin-top: 15%;
+    }
+
     .btn-pink-block {
         width: 100%;
         display: block;

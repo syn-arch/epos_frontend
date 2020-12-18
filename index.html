@@ -17,7 +17,7 @@
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light border-bottom fixed-top">
         <div class="container py-2">
             <a class="navbar-brand fw-bold" href="#home">EPOS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -41,7 +41,7 @@
                         <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contactus">CONTACT US</a>
+                        <a class="nav-link" href="#contact">CONTACT US</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn-pink text-white px-4" href="#">LOGIN</a>
@@ -53,7 +53,7 @@
     <!-- end navbar -->
 
     <!-- home -->
-    <div class="container home">
+    <div class="container home" id="home">
         <div class="row">
             <div class="col-md-6">
                 <h1 class="fw-bold">BOOST YOUR SALES NOW, WHAT ARE YOU WAITING FOR!</h1>
@@ -61,8 +61,10 @@
                     deleniti nisi dicta natus tenetur ipsum adipisci sapiente similique labore commodi, mollitia
                     facilis? Repudiandae, ratione sint?</p>
                 <div class="home-button mt-4">
-                    <div class="btn btn-pink text-white px-5 py-2 mr-3 mt-2 btn-pink-block">DISCOVER </div>
-                    <div class="btn btn-outline-pink text-white px-5 py-2 mt-2 btn-pink-block">GET PROMO </div>
+                    <a href="#whychoiceus" class="btn btn-pink text-white px-5 py-2 mr-3 mt-2 btn-pink-block">DISCOVER
+                    </a>
+                    <a href="#subscribe" class="btn btn-outline-pink text-white px-5 py-2 mt-2 btn-pink-block">GET PROMO
+                    </a>
                 </div>
             </div>
             <div class="col-md-6">
@@ -73,7 +75,7 @@
     <!-- end home -->
 
     <!-- subscribe -->
-    <div class="subscribe mt-5 py-5">
+    <div class="subscribe mt-5 py-5" id="subscribe">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -98,7 +100,7 @@
     <!-- end subscribe -->
 
     <!-- why choice us -->
-    <div class="whychoiceus mt-5">
+    <div class="whychoiceus mt-5" id="whychoiceus">
         <div class="container">
             <h4 class="text-center">WHY CHOICE US</h4>
             <p class="text-center text-gray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quidem
@@ -175,7 +177,7 @@
     <!-- end why choice us -->
 
     <!-- pricing -->
-    <div class="pricing mt-5">
+    <div class="pricing mt-5" id="pricing">
         <div class="container">
             <h4 class="text-center">PRICING</h4>
             <p class="text-center text-gray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quidem
@@ -271,7 +273,7 @@
     <!-- end pricing -->
 
     <!-- testimonials -->
-    <div class="testimonials mt-5">
+    <div class="testimonials mt-5" id="testimonials">
         <div class="container">
             <h4 class="text-center">TESTIMONIALS</h4>
             <p class="text-center text-gray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quidem
@@ -321,12 +323,102 @@
     </div>
     <!-- end testimonials -->
 
-    <div class="vh-100"></div>
+    <!-- contact -->
+    <div class="contact mt-5" id="contact">
+        <div class="container">
+            <h4 class="text-center">GET IN TOUCH</h4>
+            <p class="text-center text-gray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quidem
+                totam
+                ratione, modi officia,
+                odit sint beatae libero sequi esse aspernatur praesentium, veritatis quasi corrupti vitae architecto
+                provident nam. Aperiam?</p>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.6091242999!2d107.57311651061447!3d-6.903273916949621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Bandung%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1608285918365!5m2!1sen!2sid"
+                        width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                    <h5 class="fw-bold mt-3">VICTORY CODE STUDIO</h5>
+                    <p>Jl. Soekarno Hatta no.69</p>
+                    <h5 class="fw-bold mt-3">CONNECT WITH US</h5>
+                    <i class="mr-2 fab fa-facebook fa-2x"></i>
+                    <i class="mx-2 fab fa-instagram fa-2x"></i>
+                    <i class="mx-2 fab fa-youtube fa-2x"></i>
+                    <i class="mx-2 fab fa-telegram fa-2x"></i>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-form p-5">
+                        <h4 class="fw-bold">CONTACT US</h4>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control form-input-grey" placeholder="your name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control form-input-grey"
+                                    placeholder="yourmail@example.com">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <textarea name="message" id="message" cols="30" rows="10"
+                                    class="form-control form-input-grey" placeholder="your message"></textarea>
+                                <button type="submit" class="button-order btn-submit-form py-2 mt-3">SUBMIT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+
+    <!-- footer -->
+    <footer class="mt-5">
+        <div class="container text-white">
+            <div class="row py-5">
+                <div class="col-md-4">
+                    <h4>Victory Code Studio</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos est animi quia illo ipsam beatae
+                        voluptates! Numquam quae maiores accusamus inventore.</p>
+                </div>
+                <div class="col-md-2 offset-md-1">
+                    <h5>QUICK LINKS</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="" class="text-white">Home</a></li>
+                        <li><a href="" class="text-white">Why Choice Us</a></li>
+                        <li><a href="" class="text-white">Pricing</a></li>
+                        <li><a href="" class="text-white">Testimonials</a></li>
+                        <li><a href="" class="text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>QUICK LINKS</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="" class="text-white">lorem ipsum</a></li>
+                        <li><a href="" class="text-white">lorem ipsum</a></li>
+                        <li><a href="" class="text-white">lorem ipsum</a></li>
+                        <li><a href="" class="text-white">lorem ipsum</a></li>
+                        <li><a href="" class="text-white">lorem ipsum</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>QUICK LINKS</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="" class="text-white">lorem ipsum</a></li>
+                        <li><a href="" class="text-white">lorem ipsum</a></li>
+                        <li><a href="" class="text-white">lorem ipsum</a></li>
+                        <li><a href="" class="text-white">lorem ipsum</a></li>
+                        <li><a href="" class="text-white">lorem ipsum</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
 
 </body>
 
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>
 <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
